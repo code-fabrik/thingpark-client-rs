@@ -1,0 +1,16 @@
+[package]
+name = "thingpark-client-rs"
+version = "0.1.0"
+authors = ["Lukas_Skywalker <lukas.diener@hotmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "API client for the ThingPark Wireless portal"
+homepage = "https://code-fabrik.ch"
+repository = "https://github.com/code-fabrik/thingpark-client-rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.3", features = ["json", "blocking"] }
+serde = { version = "1.0.116", features = ["derive"] }
