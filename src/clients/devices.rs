@@ -33,7 +33,7 @@ pub fn create(
     body.insert("activationType", "OTAA".to_string());
     body.insert(
         "deviceProfileId",
-        "LORA/SwisscomA.1.0.2a_ETSI_Rx2-SF12".to_string(),
+        "LORA/SwisscomA.1.0.3_ETSI_Rx2-SF12".to_string(),
     );
     body.insert("processingStrategyId", "DEFAULTRP".to_string());
     body.insert("applicationEUI", app_eui.to_string());
